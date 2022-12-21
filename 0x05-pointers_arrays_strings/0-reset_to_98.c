@@ -1,15 +1,11 @@
 #include "main.h"
 
 /**
- *  swap_int .> given two integers swap the values they are holding
- *   @a: parameter 1
- *   @b: parameter 2
+ * reset_to_98 -> a function to update the reference of a pointer
+ * @n: pointer to n to be updated
+ *
  */
-void swap_int(int *a, int *b)
+void reset_to_98(int *n)
 {
-	int tmp;
-
-	tmp = *a;
-	*a = *b;
-	*b = tmp;
+	*n = 98;
 }
